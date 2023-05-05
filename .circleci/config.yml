@@ -7,6 +7,4 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - run: |
-          "npm install"
-          "npm test"
+      - run: npm test
